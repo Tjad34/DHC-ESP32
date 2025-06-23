@@ -1,0 +1,18 @@
+# ESP-IDF specific
+build/
+sdkconfig.old
+dependencies.lock
+
+# IDE specific
+.vscode/
+.idea/
+
+# Build generated
+*.o
+*.d
+*.pyc
+__pycache__/
+
+# Environment specific
+.DS_Store
+Thumbs.db 
